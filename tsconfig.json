@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+      "target": "ES6",
+      "module": "CommonJS",
+      "moduleResolution": "node",
+      "outDir": "./dist",
+      "esModuleInterop": true,
+      "strict": true,
+      "skipLibCheck": true,
+      "resolveJsonModule": true
+    },
+    "include": [
+      "**/*.ts"   // This will include all .ts files in the project directory and subdirectories
+    ],
+    "exclude": [
+      "node_modules"  // Exclude node_modules folder
+    ]
+  }
